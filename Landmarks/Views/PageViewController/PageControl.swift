@@ -44,8 +44,3 @@ struct PageControl: UIViewRepresentable {
         }
     }
 }
-
-#Preview {
-    @State var test = 0
-    return PageControl(numberOfPages: 0, currentPage: $test)
-}
